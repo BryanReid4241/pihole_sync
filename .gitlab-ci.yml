@@ -1,0 +1,11 @@
+image: python
+
+stages:
+  - deploy
+
+deploy_hosts:
+  stage: deploy
+  before_script:
+    - pip install -r requirments.txt
+  script:
+    - python pihole_sync.py --username root --password $PASSWORD --config config.yml --hosts-file hostsfile
