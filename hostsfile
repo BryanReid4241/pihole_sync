@@ -21,3 +21,4 @@
 192.168.1.10 kube-prod-1.homelab.com
 192.168.1.11 kube-prod-2.homelab.com
 192.168.1.12 kube-prod-3.homelab.com
+192.168.1.238 unifi.homelab.com
